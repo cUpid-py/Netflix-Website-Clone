@@ -1,0 +1,78 @@
+.bg{
+    background-image: url(../Assets/background.png);
+    height: 688px;
+    position: relative;
+
+
+}
+
+.nav-dec{
+    display:flex;
+    justify-content: center;
+}
+
+
+.Unlimited{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 100px;
+}
+
+.watch{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;   
+}
+
+.ready{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.email-box{
+    margin-left: 350px;
+    font-size: 16px;
+    padding-top: 19px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    width: 400px;
+}
+
+.gs-button{
+    background-color: #e50914;
+    padding: 10px 30px;
+    color: white;
+    font-size: 28px;
+    border: 0px;
+}
+
+
+.Logo{
+    margin-right: 950px;
+    margin-top: 25px;
+    height: 100px;
+    float: left;
+}
+
+.btn-1{
+    background-color: #e50914;
+    padding: 10px 25px;
+    float: right;
+    color: white;
+    margin-top: 35px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 0px;
+}
+
+.btn-1:hover{
+    background-color: #b90009;
+}
