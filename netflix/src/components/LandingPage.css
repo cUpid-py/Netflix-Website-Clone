@@ -1,8 +1,7 @@
 .bg{
     background-image: url(../Assets/background.png);
-    height: 688px;
-    position: relative;
-
+    display: relative;
+    height:665px;
 
 }
 
@@ -75,4 +74,12 @@
 
 .btn-1:hover{
     background-color: #b90009;
+}
+
+hr{
+    background-color: rgb(97, 97, 97);
+    height: 8px;
+    opacity: 30%;
+    border: none;
+    margin-top: 155px;
 }
