@@ -1,6 +1,7 @@
 
 import './App.css';
 import LandingPage from "./components/LandingPage";
+import Watch from "./components/Watch"
 
 
 function App() {
@@ -10,8 +11,14 @@ function App() {
 
       </header>
       <body>
-       <LandingPage />
+        <LandingPage />
         
+        <hr />
+
+        <Watch />
+
+        <hr />
+      
       </body>
   
 

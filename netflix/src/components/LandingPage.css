@@ -1,8 +1,7 @@
 .bg{
     background-image: url(../Assets/background.png);
-    height: 688px;
-    position: relative;
-
+    display: relative;
+    height:665px;
 
 }
 
@@ -34,6 +33,8 @@
     text-align: center;
     font-size: 18px;
     font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 
@@ -67,7 +68,7 @@
     padding: 10px 25px;
     float: right;
     color: white;
-    margin-top: 35px;
+    margin-top: 50px;
     font-size: 16px;
     border-radius: 3px;
     border: 0px;
@@ -76,3 +77,11 @@
 .btn-1:hover{
     background-color: #b90009;
 }
+
+hr{
+    background-color: rgb(97, 97, 97);
+    height: 8px;
+    opacity: 50%;
+    border: none;
+}
+  
