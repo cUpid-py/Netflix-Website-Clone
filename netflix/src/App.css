@@ -4,10 +4,3 @@ body{
   margin: 0px;
   padding: 0px;
 }
-
-hr{
-  background-color: rgb(97, 97, 97);
-  height: 8px;
-  opacity: 30%;
-  border: none;
-}

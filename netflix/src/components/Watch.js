@@ -13,6 +13,7 @@ const Watch = () => {
                     <p>Watch on Smart TVs, Playstation, Xbox, <br /> Chromecast, Apple TV,
                     Blu-ray players, and <br /> more.</p>                    
                 </div>
+                
                 <div>
                     <img className="Netvid" src={Netvid} alt="Netvid"></img>
                 </div>

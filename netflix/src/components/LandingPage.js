@@ -24,6 +24,9 @@ const landingPage = () => {
                     <button className="gs-button" >Get Started</button>
 
                 </div>
+                
+                {/* <hr /> */}
+
 
             </section>
            

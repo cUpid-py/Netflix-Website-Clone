@@ -33,6 +33,8 @@
     text-align: center;
     font-size: 18px;
     font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 
@@ -79,7 +81,7 @@
 hr{
     background-color: rgb(97, 97, 97);
     height: 8px;
-    opacity: 30%;
+    opacity: 50%;
     border: none;
-    margin-top: 155px;
 }
+  
