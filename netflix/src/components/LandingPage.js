@@ -23,9 +23,7 @@ const landingPage = () => {
                     <input className="email-box" type="email" placeholder="Email Address"></input>
                     <button className="gs-button" >Get Started</button>
 
-                </div>      
-
-                <hr />
+                </div>
 
             </section>
            
