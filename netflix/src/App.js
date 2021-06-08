@@ -3,6 +3,7 @@ import './App.css';
 import LandingPage from "./components/LandingPage";
 import Watch from "./components/Watch";
 import DownloadSection from "./components/DownloadSection"
+import StreamSection from "./components/StreamSection"
 
 
 
@@ -25,6 +26,8 @@ function App() {
         <DownloadSection />
 
         <hr />
+
+        <StreamSection />
 
       
       </body>
