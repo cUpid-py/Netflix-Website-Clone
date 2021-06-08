@@ -1,6 +1,6 @@
 .bg{
     background-image: url(../Assets/background.png);
-    display: relative;
+    display: block;
     height:665px;
 
 }
