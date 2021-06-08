@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.c3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c3-img{
+    margin-top: 100px;
+    margin-left: 20px;
+}

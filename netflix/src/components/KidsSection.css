@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.c4{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.c4-text{
+    float: right;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.c4-img{
+    float: left;
+    margin-left: 100px;
+
+}
+
