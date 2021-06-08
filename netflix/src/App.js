@@ -15,7 +15,7 @@ function App() {
       <body>
 
         <LandingPage />
-        
+
         <hr />
 
         <Watch />
@@ -23,6 +23,8 @@ function App() {
         <hr />
 
         <DownloadSection />
+
+        <hr />
 
       
       </body>
