@@ -1,7 +1,9 @@
 
 import './App.css';
 import LandingPage from "./components/LandingPage";
-import Watch from "./components/Watch"
+import Watch from "./components/Watch";
+import DownloadSection from "./components/DownloadSection"
+
 
 
 function App() {
@@ -11,6 +13,7 @@ function App() {
 
       </header>
       <body>
+
         <LandingPage />
         
         <hr />
@@ -18,6 +21,9 @@ function App() {
         <Watch />
 
         <hr />
+
+        <DownloadSection />
+
       
       </body>
   
