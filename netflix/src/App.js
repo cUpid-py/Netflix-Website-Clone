@@ -5,6 +5,7 @@ import Watch from "./components/Watch";
 import DownloadSection from "./components/DownloadSection"
 import StreamSection from "./components/StreamSection"
 import KidsSection from "./components/KidsSection"
+import PreFooter from "./components/PreFooter"
 
 
 
@@ -33,6 +34,11 @@ function App() {
         <hr />
 
         <KidsSection />
+
+        <hr />
+
+        <PreFooter />
+
 
       
       </body>
