@@ -25,7 +25,6 @@ const landingPage = () => {
 
                 </div>
                 
-                {/* <hr /> */}
 
 
             </section>
