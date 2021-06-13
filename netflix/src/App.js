@@ -6,7 +6,7 @@ import DownloadSection from "./components/DownloadSection"
 import StreamSection from "./components/StreamSection"
 import KidsSection from "./components/KidsSection"
 import PreFooter from "./components/PreFooter"
-
+import FooterMain from "./components/FooterMain"
 
 
 function App() {
@@ -38,6 +38,11 @@ function App() {
         <hr />
 
         <PreFooter />
+
+        <hr />
+
+        <FooterMain />
+
 
 
       
