@@ -1,7 +1,8 @@
 .bg{
     background-image: url(../Assets/background.png);
-    display: block;
-    height:665px;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 690px;
 
 }
 
