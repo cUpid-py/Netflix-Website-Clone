@@ -42,3 +42,13 @@ p{
     font-weight: 400;
 }
 
+@media (max-width:421px) {
+
+    .c2-text h1{
+        color: aqua;
+        font-size: 1rems;
+        font-weight: 600;
+        /* margin-bottom: 25px; */
+    }
+    
+}

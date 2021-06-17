@@ -18,14 +18,14 @@
 }
 
 .c1-text h1{
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 600;
     margin-bottom: 25px;
 
 }
 
 .c1-text p{
-    font-size: 28px;
+    font-size: 1.625rem;
     font-weight: 400;
 
 }
@@ -36,3 +36,14 @@
     margin-left: 50px;
 }
 
+@media (max-width:421px) {
+    .c1-text h1{
+        display: flex;
+        font-size: 1.125rem;
+        font-weight: 200;
+        margin-bottom: 25px;
+    
+    }
+
+    
+}
