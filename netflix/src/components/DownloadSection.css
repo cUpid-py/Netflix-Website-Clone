@@ -42,7 +42,7 @@ p{
     font-weight: 400;
 }
 
-@media (max-width:421px) {
+@media (max-width:378px) {
 
     .c2-text h1{
         color: aqua;
