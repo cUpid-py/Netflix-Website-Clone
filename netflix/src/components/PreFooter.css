@@ -1,40 +1,60 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.c5 .faqs{
-    margin-top: 60px;
-    margin-left: 250px;
-    margin-right: 250px;
+.c5 .faqs {
+  margin: 1rem auto;
+  width: 60%;
+  /* margin-top: 60px;
+  margin-left: 250px;
+  margin-right: 250px; */
 }
 
-.c5 h1{
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin-top: 90px;
-    /* align-items: center; */
+.c5 h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
 }
 
-.c5 a{
-    text-decoration: none;
-    display: flex;
-    justify-content: left;
-    background-color: rgb(48, 47, 47);
-    margin: 10px;
-    padding: 20px 40px 20px;
+.question {
+  display: flex;
+  justify-content: left;
+  padding: 20px 30px 20px;
+  margin-bottom: 0.5em;
+  background-color: rgb(48, 47, 47);
+}
+.c5 a {
+  text-decoration: none;
 }
 
-.c5 .mail-but{
-    margin-top: 50px;
-    margin-bottom: 50px;
+.c5 .mail-but {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
-.mail-but .r1{
-    display: flex;
-    justify-content: center;
-    color: white;
-    margin-bottom: 30px;
-    margin-top: 20px;
+.r1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .c5 .faqs {
+    margin: 0;
+    width: 100%;
+  }
+  .c5 p {
+    font-size: 1.3rem;
+  }
 }
