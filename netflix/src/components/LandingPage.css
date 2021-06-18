@@ -1,94 +1,99 @@
-
-.bg{
-    background-image: url(../Assets/background.png);
-    background-size: cover;
-    /* background-attachment: fixed; */
-    height: 690px;
-
+.bg {
+  background-image: url(../Assets/background.png);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  height: 690px;
 }
 
-.nav-dec{
-    display:flex;
-    justify-content: center;
+.nav-dec {
+  display: flex;
+  justify-content: space-between;
 }
 
-
-.Unlimited{
-    color: white;
-    font-size: 3rem;
-    font-weight: 700;
-    justify-content: center;
-    text-align: center;
-    line-height: 60px;
-    margin-top: 100px;
+.getStarted {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Unlimited {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  justify-content: center;
+  text-align: center;
+  line-height: 60px;
+  margin-top: 100px;
 }
 
-.watch{
-    font-size: 1.625rem;
-    color: white;
-    text-align: center;
-    margin-top: 10px;   
+.watch {
+  font-size: 1.625rem;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
 }
 
-.ready{
-    color: white;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 300;
-    margin-top: 30px;
-    margin-bottom: 20px;
+.ready {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
-
-.email-box{
-    margin-left: 362px;
-    font-size: 16px;
-    padding-top: 19px;
-    padding-bottom: 11px;
-    padding-left: 10px;
-    width: 400px;
+.email-box {
+  /* margin-left: 362px; */
+  font-size: 16px;
+  padding-top: 19px;
+  padding-bottom: 11px;
+  padding-left: 10px;
+  width: 400px;
 }
 
-.gs-button{
-    background-color: #e50914;
-    padding: 10px 30px;
-    color: white;
-    font-size: 28px;
-    border: 0px;
+.gs-button {
+  background-color: #e50914;
+  padding: 10px 30px;
+  color: white;
+  font-size: 28px;
+  border: 0px;
 }
 
-
-.Logo{
-    margin-right: 950px;
-    margin-top: 25px;
-    height: 100px;
-    float: left;
+.Logo {
+  margin-top: 25px;
+  height: 100px;
 }
 
-.btn-1{
-    background-color: #e50914;
-    padding: 10px 25px;
-    float: right;
-    color: white;
-    margin-top: 50px;
-    font-size: 16px;
-    border-radius: 3px;
-    border: 0px;
+.btn-1 {
+  background-color: #e50914;
+  padding: 10px 25px;
+  color: white;
+  margin-top: 50px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 0px;
 }
 
-.btn-1:hover{
-    background-color: #b90009;
+.btn-1:hover {
+  background-color: #b90009;
 }
 
-hr{
-    background-color: rgb(97, 97, 97);
-    height: 8px;
-    opacity: 50%;
-    border: none;
+hr {
+  background-color: rgb(97, 97, 97);
+  height: 8px;
+  opacity: 50%;
+  border: none;
 }
 
-
-@media (max-width: 421px) {
-    
-    
+@media (max-width: 500px) {
+  .mail-but {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .gs-button {
+    margin-top: 1em;
+    width: 50%;
+  }
 }
